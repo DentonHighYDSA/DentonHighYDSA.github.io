@@ -1,0 +1,86 @@
+html{
+  background-color: aliceblue;
+  font-family: courier;
+}
+.contentUnit{
+  background-color: ghostwhite;
+  border: outset white 2px;
+  padding: 5px;
+  width: 90%;
+  margin: auto;
+}
+.contentUnit:hover{
+  background-color: lightgray;
+}
+#all{
+  background-color: lavender;
+  border: 1px black solid;
+  padding: 10px;
+  width: 80vw;
+  margin: auto;
+}
+#nav{
+  text-align: center;
+}
+#nav button{
+  width: 20%;
+  margin: 2px;
+  max-width: 100px;
+  background-color: ghostwhite;
+  border: outset white 2px;
+}
+#nav button:hover{
+  background-color: lightgray;
+  border: outset ghostwhite 2px;
+}
+#content{
+  width: 95%;
+  margin: auto;
+}
+.unitImg{
+  display: inline;
+  width: 100%;
+  margin-left: 5px;
+}
+p{
+  display: inline-block;
+}
+.imgDiv{
+  width: 30%;
+  display: inline-block;
+}
+hr{
+  width: 95%;
+}
+.pDiv{
+  width: 65%;
+  display: flex; 
+  float: right;
+  margin-right: 5px;
+  padding: 5px;
+  border-left: black 2px solid;
+}
+.imgpDiv{
+  display: inline-block;
+  
+}
+@media only screen and (max-width: 900px){
+  #all{
+    width: 98vw;
+  }
+  .imgDiv{
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+  .pDiv{
+    margin: auto;
+    float: none;
+    width: 95%;
+  }
+  html, body{
+    margin: 0;
+    width: 100vw;
+    padding: 0;
+  }
+}
