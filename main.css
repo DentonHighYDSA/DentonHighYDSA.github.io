@@ -33,6 +33,11 @@ html{
   background-color: lightgray;
   border: outset ghostwhite 2px;
 }
+#logo{
+  width: 20%;
+  margin: auto;
+  display: block;
+}
 #content{
   width: 95%;
   margin: auto;
@@ -45,12 +50,16 @@ html{
 p{
   display: inline-block;
 }
+h1{
+  color: #ff3131;
+}
 .imgDiv{
   width: 30%;
   display: inline-block;
 }
 hr{
   width: 95%;
+  color: darkred;
 }
 .pDiv{
   width: 65%;
@@ -58,7 +67,7 @@ hr{
   float: right;
   margin-right: 5px;
   padding: 5px;
-  border-left: black 2px solid;
+  border-left: darkred 2px solid;
 }
 .imgpDiv{
   display: inline-block;
