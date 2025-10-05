@@ -43,7 +43,7 @@ html{
   width: 60%;
   height: 15vw;
   position: absolute;
-  left: 30;
+  left: 30%;
   font-size: max(2vw, 15px);
   overflow-y: scroll;
   scrollbar-width: none;
